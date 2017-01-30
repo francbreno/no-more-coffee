@@ -2,3 +2,18 @@
 @import '~https://fonts.googleapis.com/icon?family=Material+Icons';
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic';
 @import '~@angular/material/core/theming/prebuilt/deeppurple-amber.css';
+
+html {
+    overflow: hidden;
+}
+
+body {
+    margin: 0px;
+}
+
+html,
+body,
+.page {
+  height: 100%; /* needed for proper layout */
+}
+
