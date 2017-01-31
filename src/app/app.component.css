@@ -5,3 +5,7 @@
     position: relative;
     height: inherit;
 }
+
+md-toolbar {
+    z-index: 6;
+}
