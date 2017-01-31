@@ -3,4 +3,5 @@
 .container {
     overflow: auto;
     position: relative;
+    height: inherit;
 }
